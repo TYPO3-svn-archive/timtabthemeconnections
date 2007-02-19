@@ -1,0 +1,23 @@
+
+#	$Id$
+
+page.file {
+    # cat=basic/file; type=file[html,htm,txt,inc,tmpl]; label=Template file:  This file is very important. It's the template of the homepage. It's working with markers and subparts which define where menus, content and images go.
+  template_main = EXT:timtab_theme_connections/res/main.tmpl
+
+    # cat=basic/file; type=file[html,htm,txt,inc,tmpl]; label=Template file:  This file is the template for standard content pages.
+  template_std = EXT:timtab_theme_connections/res/std.tmpl
+
+    # cat=basic/file; type=file[html,htm,txt,inc,tmpl]; label=Template file:  This file is the template for the post single view page.
+  template_single = EXT:timtab_theme_connections/res/single.tmpl
+
+    # cat=basic/file; type=file[css]; label=CSS file:  This file is very important, too. It's the total css of the website.
+  css = EXT:timtab_theme_connections/res/style.css
+  
+  template_tt_news = EXT:timtab_theme_connections/res/tt_news.tmpl
+  template_ve_guestbook = EXT:timtab_theme_connections/res/ve_guestbook.tmpl
+  
+  header_bg = EXT:timtab_theme_connections/res/images/spring_flavour/header_bg.jpg
+}
+
+PAGE_TARGET = 
